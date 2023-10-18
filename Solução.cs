@@ -21,7 +21,7 @@
         while (tentativas < 3)
         {
             Console.Write("Seu cartão de vacina está em dia? (SIM/NAO): ");
-            resposta[0] = (Console.ReadLine()??"").Trim().ToUpper();
+            resposta[0] = (Console.ReadLine() ?? "").Trim().ToUpper();
 
             if (resposta[0] == "SIM")
             {
@@ -50,7 +50,7 @@
         while (tentativas < 3)
         {
             Console.Write("Teve algum dos sintomas recentemente? (dor de cabeça, febre, náusea, dor articular, gripe) (SIM/NAO): ");
-            resposta[1] = (Console.ReadLine()??"").Trim().ToUpper();
+            resposta[1] = (Console.ReadLine() ?? "").Trim().ToUpper();
 
             if (resposta[1] == "SIM")
             {
@@ -79,7 +79,7 @@
         while (tentativas < 3)
         {
             Console.Write("Teve contato com pessoas com sintomas gripais nos últimos dias? (SIM/NAO): ");
-            resposta[2] = (Console.ReadLine()??"").Trim().ToUpper();
+            resposta[2] = (Console.ReadLine() ?? "").Trim().ToUpper();
 
             if (resposta[2] == "SIM")
             {
@@ -108,7 +108,7 @@
         while (tentativas < 3)
         {
             Console.Write("Está retornando de viagem realizada no exterior? (SIM/NAO): ");
-            resposta[3] = (Console.ReadLine()??"").Trim().ToUpper();
+            resposta[3] = (Console.ReadLine() ?? "").Trim().ToUpper();
 
             if (resposta[3] == "SIM")
             {
